@@ -1,7 +1,5 @@
-title of page 
+my journey through this was tough. I had made a plan of what my webpage would look like, researched grid to structure the layout. I started out by creating my html & css files to establish the menu-bar, heading, and the grid location. 
 
-modifiable grid 
+My first dilemma came in creating the 16 x 16 grid. I had it visually their but went to fast in trying to create a way for it to change sizes. In the process I had changed what I had and gone a step backwards. It took me several days to realise the mistake. From there I moved onto the colour buttons. I had to do some research on how to get the event listener to work with functions. finally I re-tackled making the grid for 16, 32, & 64. I tried many methods but realised editing part of my code was all I needed to do once adding the onclick to the button in the html files. 
 
-legend left of grid 
-
-copyright @ bottom of page hehe
+I am glad I had to research many different aspects of this project, get different perspectives from other students, to influence my own work. 
