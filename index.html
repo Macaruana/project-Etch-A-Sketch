@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src=script.js defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src=script.js defer></script>
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-
-    
-</body>
-</html>
+    <div class="layout">
+        <div class="Heading grid-span-2"> 
+            <h1> Etch-A-Sketch </h1>
+            <p> Draw to your hearts content! </p>
+        </div>
+        <div class="Toolbar">
+            <h2> Menu </h2>
+            <button onclick="changeColor('black')"> Black </button>
+            <button onclick="changeColor('random')"> Rainbow </button>
+            <button onclick="changeColor('white')"> Eraser </button>
+            <button onclick="resetBoard()"> Reset before resize </button>
+            <button onclick="createGridElements(16)"> 16 x 16 </button>
+            <button onclick="createGridElements(32)"> 32 x 32 </button>
+            <button onclick="createGridElements(64)"> 64 x 64 </button>
+        </div>
+        <div class ="container grid-span-2" id="container">
+        </div>
+    </div>
+</body> 
 
 
 
